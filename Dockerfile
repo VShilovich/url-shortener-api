@@ -10,3 +10,4 @@ COPY . .
 
 # даем права на выполнение скрипта запуска
 RUN chmod a+x docker/*.sh
+CMD ["/fastapi_app/docker/app.sh"]
